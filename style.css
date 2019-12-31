@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('cn-font.ttf') format('truetype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a363b;
+    height: 100%;
+    overflow-x: none;
+    overflow-y: none;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.title {
+font-family: 'MyWebFont' , sans-serif;
+font-size: 3.2rem;
+color: #fecea8;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 3rem;
+
+}
+
+#demo {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kua {
+    color: #ff847c;}
+
+
+#hitokoto {
+    font-family: 'MyWebFont' , sans-serif;
+    font-size: 1.5rem;  
+    color: #b1afaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+    width: 90%;
+    word-break: keep-all;
+    line-height: 2.5rem;
+ 
+}
+
+.refresh {
+   text-align: center;
+   padding: .3rem;
+   margin: 1rem auto;
+    font-size: 3rem;    
+    color: #ff857cda;   
+ 
+    
+}
+
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: fixed;
+    bottom:0;
+    padding: .5rem 0;
+    width: 100vw;
+    text-align: center;
+    background-color: #1d2529d3;
+    color: rgb(102, 101, 101);
+}
+
+.hooray {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ff6f5e;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+text-align: center;
+line-height: 100vh;
+padding: 2rem;
+        font-size: 3rem;   
+    font-family: 'MyWebFont';
+    word-break: keep-all;
+    color: #f5f0e3;
+    overflow-x: hidden;
+    display: none;
+
+}
+
+.fade {
+    display: block;
+}
+
+
+
+
+
+
+
+
+ 
